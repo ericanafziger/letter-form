@@ -1,0 +1,11 @@
+.signature {
+  font-family: cursive;
+}
+
+#lettertext {
+  display: none;
+}
+
+#initialForm{
+  width: 50%;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>A Letter</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="initialForm" class="well">
+        <h1>My Letter of Resignation</h1>
+        <form>
+          <div class="form-group">
+            <label for="nameOfBoss">Name of Your Boss:</label>
+            <input id="nameOfBoss" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="lengthOfNotice">Length you are giving notice for:</label>
+            <input id="lengthOfNotice" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="nameOfCompany">Name of your Company:</label>
+            <input id="nameOfCompany" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="lengthOfEmployment">Length of Employment:</label>
+            <input id="lengthOfEmployment" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="career">Current Career:</label>
+            <input id="career" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="newCareer">New Career:</label>
+            <input id="newCareer" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="yourName">Your Name:</label>
+            <input id="yourName" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Show my resignation letter</button>
+        </form>
+      </div><!--closes well-->
+      <div id="lettertext">
+        <div class="well">
+          <p>To <span class="nameOfBoss"></span>,<br> I would like to inform you that this letter represents my <span class="lengthOfNotice"></span>. My time with <span class="nameOfCompany"></span> over the last <span class="lengthOfEmployment"></span> has been a rewarding experience. I have the highest regard for <span class="nameOfCompany"></span> and my fellow employees. My career as a <span class="career"></span> has come to an end.</p>
+          <p>I am leaving to become a <span class="newCareer"></span>! <br><br> Warmest regards, <br><br><span class="yourName signature"></span><br><span class="yourName"></span>
+        </div>
+      </div><!--closes lettertext-->
+    </div><!--closes containter-->
+
+  </body>
+</html>
