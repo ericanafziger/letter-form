@@ -18,7 +18,7 @@ $(document).ready(function(){
 
     $(".nameOfBoss").text(nameOfBossInput);
     $(".lengthOfNotice").text(lengthOfNoticeInput);
-    $(".nameOfCompany").text(nameOfCompanyInput);
+    $(".nameOfCompany").text(nameOfCompanyInput.toUpperCase());
     $(".companyAddress").text(companyAddressInput);
     $(".companyCity").text(companyCityInput);
     $(".lengthOfEmployment").text(lengthOfEmploymentInput);
